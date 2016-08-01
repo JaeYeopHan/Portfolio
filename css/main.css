@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+.top-menu{
+    display: block;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+    background-color: #F2F2F2;
+    z-index: 9090;
+}
+
+header h1{
+    float: left;
+    display: inline-block;
+    padding-left: 2em;
+    visibility: visible;
+}
+
+.logo-point{
+    color: #FF305B;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.navigation{
+    position: fixed;
+    top: 2em;
+    right: 5em;
+    height: 33px;
+    width: 35px;
+    z-index: 9090;
+    background-color: #000;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.4s;
+    transition-timing-function: ease;
+}
+
+.nav-trigger-top{
+    position: absolute;
+    background-color: #FFF;
+    left: 9px;
+    top: 9px;
+    bottom: auto;
+    right: auto;
+    height: 3px;
+    width: 17px;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+    transform: rotate(0deg);
+}
+
+.nav-trigger-mid{
+    position: absolute;
+    background-color: #FFF;
+    left: 9px;
+    top: 15px;
+    bottom: auto;
+    right: auto;
+    height: 3px;
+    width: 17px;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+}
+
+.nav-trigger-btm{
+    position: absolute;
+    background-color: #FFF;
+    left: 9px;
+    top: 21px;
+    bottom: auto;
+    right: auto;
+    height: 3px;
+    width: 17px;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+    transform: rotate(0deg);
+}
+
+/* main content */
+
+.down-icon i{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    border: solid #FF305B 1px;
+    border-radius: 50%;
+    padding: 3px 4px;
+    background-color: #FF305B;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.2s;
+    transition-timing-function: ease;
+
+}
+
+.down-icon i:hover{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    border: solid #FF305B 1px;
+    border-radius: 5%;
+    padding: 3px 30px;
+    background-color: #FF305B;
+    color: #FFF;
+    transition: all 0.2s;
+    transition-timing-function: ease;
+}
+
+.fa-angle-up{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    border: solid #FF305B 1px;
+    border-radius: 50%;
+    padding: 4px 6px;
+    text-align: center;
+    transition: all, 0.4s;
+    transition-timing-function: ease;
+    color: #FF305B;
+}
+
+.fa-angle-up:hover{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    border: solid #FF305B 1px;
+    border-radius: 50%;
+    padding: 4px 6px;
+    text-align: center;
+    transition: all, 0.4s;
+    transition-timing-function: ease;
+    color: #FFF;
+    background-color: #FF305B;
+
+}

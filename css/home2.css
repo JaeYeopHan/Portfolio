@@ -1,0 +1,84 @@
+
+#column-spacing-left{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#column-spacing-right{
+    margin-left: 0;
+    padding-left: 0;
+}
+.about-me-title{
+    display: block;
+    margin: 0em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.7em;
+    font-size: 3em;
+}
+.box-model-white{
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid #FFF 20px;
+    background-color: #FFF;
+}
+
+.about-me-content{
+    padding: 7em 0em;
+    background-image: url(/img/about-me-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-me-list{
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.about-me-list ol{
+    display: inline;
+}
+
+.about-me-list li{
+    margin-bottom: 1em;
+    border-left: solid #888 1px;
+    padding-left: 1em;
+    width: 17em;
+}
+
+.about-me-list span{
+    float: right;
+}
+
+.history-title{
+    margin: 0em;
+    padding-top: 2em;
+    padding-left: 3em;
+    background-color: #FF305B;
+}
+
+.history-title h4{
+    font-weight: bolder;
+    color: #FFF;
+    font-size: 3em;
+    letter-spacing: 2px;
+    line-height: 0.7;
+}
+
+.history-content{
+    margin-top: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.history-content-main{
+    font-size: 1.5em;
+}
+
+.history-content-description{
+    font-size: 1em;
+    font-weight: 100;
+    color: #777;
+}

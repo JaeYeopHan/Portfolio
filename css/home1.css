@@ -1,0 +1,65 @@
+/* home1 */
+
+.slide{
+    margin-top: 5em;
+}
+
+.box-model-gray{
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid #FFF 20px;
+    background-color: #F2F2F2;
+    background-image: url(/img/home-slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#liner2{
+    border-right: solid #FFF 1px;
+}
+
+.contents-position{
+    padding-top: 8em;
+    padding-bottom: 5em;
+    margin-left: 3em;
+    vertical-align: middle;
+
+}
+
+.text-gray{
+    margin-bottom: 40px;
+}
+
+.text-gray p{
+    font-size: 3em;
+    font-weight: bolder;
+    color: #2E353B;
+    margin-bottom: 0px;
+    line-height: 100%;
+}
+
+.text-magenta p{
+    padding-right: 6em;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #FF305B;
+    vertical-align: middle;
+    line-height: 120%;
+    letter-spacing: 2px;
+}
+
+.pageNumber{
+    padding: 10px 0px;
+    color: #FF305B;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-align: center;
+}
+
+.down-icon{
+    margin-bottom: 1em;
+    text-align: center;
+    z-index: 8000;
+}
