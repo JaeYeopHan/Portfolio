@@ -1,7 +1,8 @@
 $(document).ready(function(){
     var $nav = $('.navigation');
-    $nav.on('mouseover', transform);
-    $nav.on('mouseout', reset);
+    
+    $nav.on('mouseenter', transform);
+    $nav.on('mouseleave', reset);
 
     function transform(){
         $nav.css('background-color','#FFF');

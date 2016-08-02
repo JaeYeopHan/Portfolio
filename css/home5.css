@@ -1,0 +1,40 @@
+.quote{
+}
+
+
+.home5-small-title p{
+    margin: 0em;
+    padding: 0em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.home5-content-title p{
+    margin: 0em;
+    padding: 0em;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+    color: #FF305B;
+    font-size: 2em;
+}
+
+.home5-content p{
+    margin: 0em;
+    padding: 0em;
+    margin-left: 2em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: #777;
+}
+
+.backgroundclass{
+    margin: auto;
+    height: 30em;
+    width: 90%;
+    background-image: url(/img/skills-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}

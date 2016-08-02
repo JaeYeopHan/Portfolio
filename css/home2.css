@@ -1,4 +1,3 @@
-
 #column-spacing-left{
     margin-right: 0;
     padding-right: 0;
@@ -25,7 +24,7 @@
 }
 
 .about-me-content{
-    padding: 7em 0em;
+    padding: 7em 0em 5em 0;
     background-image: url(/img/about-me-bg.jpg);
     background-position: center;
     background-size: cover;

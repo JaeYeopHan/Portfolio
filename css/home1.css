@@ -1,11 +1,5 @@
-/* home1 */
-
-.slide{
-    margin-top: 5em;
-}
-
 .box-model-gray{
-    margin-top: 2em;
+    margin-top: 6em;
     margin-left: 5em;
     margin-right: 5em;
     border: solid #FFF 20px;
@@ -13,19 +7,15 @@
     background-image: url(/img/home-slider-1.jpg);
     background-position: center;
     background-size: cover;
-
 }
 
-#liner2{
-    border-right: solid #FFF 1px;
-}
+
 
 .contents-position{
     padding-top: 8em;
     padding-bottom: 5em;
     margin-left: 3em;
     vertical-align: middle;
-
 }
 
 .text-gray{

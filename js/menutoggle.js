@@ -1,9 +1,13 @@
 $(document).ready(function(){
 
     var $nav = $('.navigation');
-    $nav.on('click', visible);
+    var $navlogo = $('.nav-logo');
 
-    function visible(){
+    $nav.on('click', visible)
+        .on('click', transformMenu);
+    $navlogo.on('click', visible);
+
+    function transformMenu(){
         if($('h1').css('visibility') == 'visible'){
             $('.top-menu').css('background-color', 'transparent');
             $('h1').css('visibility', 'hidden');
@@ -22,7 +26,9 @@ $(document).ready(function(){
             $nav.children('.nav-trigger-btm').css('transform', 'rotate(0deg)');
             $nav.children('.nav-trigger-mid').fadeIn(300);
         }
+    }
 
+    function visible(){
         if($('#navigation-visible').css('left') == '-2000px'){
             $('#navigation-visible').animate({
                     left:'15px'

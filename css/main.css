@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+#liner2{
+    border-right: solid #FFF 1px;
+}
 
 .top-menu{
     display: block;
@@ -7,7 +10,7 @@
     top: 0em;
     width: 100%;
     background-color: #F2F2F2;
-    z-index: 9090;
+    z-index: 9999;
 }
 
 header h1{
@@ -37,44 +40,29 @@ header h1{
     transition-timing-function: ease;
 }
 
-.nav-trigger-top{
+.nav-trigger-top, .nav-trigger-mid, .nav-trigger-btm{
     position: absolute;
     background-color: #FFF;
-    left: 9px;
-    top: 9px;
     bottom: auto;
     right: auto;
     height: 3px;
     width: 17px;
+    left: 9px;
     transition: all 0.3s;
     transition-timing-function: ease;
+}
+
+.nav-trigger-top{
+    top: 9px;
     transform: rotate(0deg);
 }
 
 .nav-trigger-mid{
-    position: absolute;
-    background-color: #FFF;
-    left: 9px;
     top: 15px;
-    bottom: auto;
-    right: auto;
-    height: 3px;
-    width: 17px;
-    transition: all 0.3s;
-    transition-timing-function: ease;
 }
 
 .nav-trigger-btm{
-    position: absolute;
-    background-color: #FFF;
-    left: 9px;
     top: 21px;
-    bottom: auto;
-    right: auto;
-    height: 3px;
-    width: 17px;
-    transition: all 0.3s;
-    transition-timing-function: ease;
     transform: rotate(0deg);
 }
 
@@ -92,20 +80,14 @@ header h1{
     cursor: pointer;
     transition: all 0.2s;
     transition-timing-function: ease;
-
 }
 
 .down-icon i:hover{
-    text-align: center;
-    font-size: 1em;
-    font-weight: bolder;
     border: solid #FF305B 1px;
     border-radius: 5%;
     padding: 3px 30px;
     background-color: #FF305B;
     color: #FFF;
-    transition: all 0.2s;
-    transition-timing-function: ease;
 }
 
 .fa-angle-up{
@@ -122,16 +104,6 @@ header h1{
 }
 
 .fa-angle-up:hover{
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
-    border: solid #FF305B 1px;
-    border-radius: 50%;
-    padding: 4px 6px;
-    text-align: center;
-    transition: all, 0.4s;
-    transition-timing-function: ease;
     color: #FFF;
     background-color: #FF305B;
-
 }
