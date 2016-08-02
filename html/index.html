@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/css/home1.css">
     <link rel="stylesheet" href="/css/home2.css">
     <link rel="stylesheet" href="/css/home3.css">
+    <link rel="stylesheet" href="/css/home4.css">
+    <link rel="stylesheet" href="/css/home5.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
     <style>
@@ -18,13 +20,19 @@
             background-color: #F2F2F2;
             z-index: 8000;
         }
+        a, a:hover, a:active, a:visited, a:link{
+            color: black;
+        }
+        .slide li{
+            height: 100%;
+        }
     </style>
 </head>
 <body>
-
     <header>
         <div class="top-menu">
-            <h1><span class="logo-point">_</span>Jbee</h1>
+            <a href="#"><h1><span class="logo-point">_</span>Jbee</h1></a>
+
             <nav class="navigation">
                 <span class="nav-trigger-top"></span>
                 <span class="nav-trigger-mid"></span>
@@ -62,7 +70,7 @@
         </div>
     </header>
 
-    <ol class="slide">
+    <ol id="top">
         <li id="home1">
             <div class="box-model-gray">
                 <div class="row">
@@ -86,14 +94,16 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12">
-                        <p class="pageNumber">1  /  5</p>
+                        <p class="pageNumber">1  /  7</p>
                     </div>
                 </div>
                 <div class="down-icon">
                     <a href="#home2"><i class="fa fa-angle-down"></i></a>
                 </div>
             </div>
-        </li>
+        </li> <!-- home1 end -->
+
+        <!-- home2 -->
         <li id="home2">
             <div class="box-model-white">
                 <h3 class="about-me-title"><span class="logo-point">A</span>BOUT ME</h3>
@@ -134,7 +144,7 @@
 
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12">
-                        <p class="pageNumber">2  /  5</p>
+                        <p class="pageNumber">2  /  7</p>
                     </div>
                 </div>
                 <div class="down-icon">
@@ -151,8 +161,7 @@
                             <i class="fa fa-bell-o"></i>
                             <div class="skill-icon-description">
                                 <h4>Computing Thinking</h4>
-                                <p>Provided creative ideas and contructive feedback to other visual and non-visual thinkers or designers.
-                                Provided creative ideas and contructive feedback to other visual and non-visual thinkers or designers.</p>
+                                <p>Provided creative ideas and contructive feedback to other visual and non-visual thinkers or visual and non-visual thinkers or visual and non-visual thinkers or designers.</p>
                             </div>
                             <i class="fa fa-cogs"></i>
                             <div class="skill-icon-description">
@@ -166,7 +175,7 @@
                             <i class="fa fa-key"></i>
                             <div class="skill-icon-description">
                                 <h4>Coding</h4>
-                                <p>Writer front-end HTML5 code in text editoer to implement the user interface designs for new products.</p>
+                                <p>Writer front-end HTML5 code in text editoer to implriter front-end HTML5 code in text editoer to implement the user interface designs for new products.</p>
                             </div>
                             <i class="fa fa-users"></i>
                             <div class="skill-icon-description">
@@ -178,7 +187,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12">
-                        <p class="pageNumber">3  /  5</p>
+                        <p class="pageNumber">3  /  7</p>
                     </div>
                 </div>
                 <div class="down-icon">
@@ -191,76 +200,207 @@
                 <h3 class="about-me-title"><span class="logo-point">P</span>ROJECTS</h3>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="image1">
-
+                        <div class="modal" id="modal-project1">
+                            <div class="modal-content">
+                                <span class="modal-close"> <i class="fa fa-times"></i> </span>
+                                <div class="modal-project-description">
+                                    <h4> <span class="logo-point">P</span>roject1 Description</h4>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="image-description">
-                            <h4>Image1 Description</h4>
-                            <p>First Picture Description</p>
-                            <p>First Picture Description</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="image2">
-
-                        </div>
-                        <div class="image-description">
-                            <h4>Image2 Description</h4>
-                            <p>Second Picture Description</p>
-                            <p>Second Picture Description</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="image3">
-
-                        </div>
-                        <div class="image-description">
-                            <h4>Image3 Description</h4>
-                            <p>Third Picture Description</p>
-                            <p>Third Picture Description</p>
+                        <div class="picture-animation1">
+                            <div class="image1">
+                            </div>
+                            <div class="image-description">
+                                <h4>Image1 Description</h4>
+                                <p>First Picture Description</p>
+                                <p>First Picture Description</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <div class="image4">
-
+                        <div class="modal" id="modal-project2">
+                            <div class="modal-content">
+                                <span class="modal-close"> <i class="fa fa-times"></i> </span>
+                                <div class="modal-project-description">
+                                    <h4> <span class="logo-point">P</span>roject2 Description</h4>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="image-description">
-                            <h4>Image4 Description</h4>
-                            <p>Forth Picture Description</p>
-                            <p>Forth Picture Description</p>
+                        <div class="picture-animation2">
+                            <div class="image2">
+                            </div>
+                            <div class="image-description">
+                                <h4>Image2 Description</h4>
+                                <p>Second Picture Description</p>
+                                <p>Second Picture Description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <div class="modal" id="modal-project3">
+                            <div class="modal-content">
+                                <span class="modal-close"> <i class="fa fa-times"></i> </span>
+                                <div class="modal-project-description">
+                                    <h4> <span class="logo-point">P</span>roject3 Description</h4>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-animation3">
+                            <div class="image3">
+                            </div>
+                            <div class="image-description">
+                                <h4>Image3 Description</h4>
+                                <p>Third Picture Description</p>
+                                <p>Third Picture Description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                        <div class="modal" id="modal-project4">
+                            <div class="modal-content">
+                                <span class="modal-close"> <i class="fa fa-times"></i> </span>
+                                <div class="modal-project-description">
+                                    <h4> <span class="logo-point">P</span>roject4 Description</h4>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture-animation4">
+                            <div class="image4">
+                            </div>
+                            <div class="image-description">
+                                <h4>Image4 Description</h4>
+                                <p>Forth Picture Description</p>
+                                <p>Forth Picture Description</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12">
-                        <p class="pageNumber">4  /  5</p>
+                        <p class="pageNumber">4  /  7</p>
                     </div>
                 </div>
                 <div class="down-icon">
-                    <a href="#home4"><i class="fa fa-angle-down"></i></a>
+                    <a href="#home5"><i class="fa fa-angle-down"></i></a>
                 </div>
             </div>
         </li>
         <li id="home5">
+            <div class="box-model-white ">
+                <h3 class="about-me-title"><span class="logo-point">B</span>LOG</h3>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p class="quote" style="font-size=5em;">"</p>
+                        <div class="home5-small-title">
+                            <p>
+                                Good Design Keeps the User Happy,
+                                the Manufacturer in the Black and
+                                the Aestete Unoffended.
+                            </p>
+                        </div>
+                        <div class="home5-content-title">
+                            <p>
+                                We're Creative Minds
+                            </p>
+                        </div>
+                        <div class="home5-content">
+                            <p>
+                                Ensured mock-ups met both visual and textual
+                                branching standards. Defined and documented website
+                                design standards when needed. Designed adaptive
+                                layouts to maintain a consistent user experience
+                                across the product. Created clickable prototypes
+                                when needed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 backgroundclass">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-xs-12">
+                        <p class="pageNumber">5  /  7</p>
+                    </div>
+                </div>
+                <div class="down-icon">
+                    <a href="#home6"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </div>
+        </li>
+        <li id="home6">
             <div class="box-model-white">
                 <h3 class="about-me-title"><span class="logo-point">B</span>LOG</h3>
                 <div class="row">
 
+                    <!-- content -->
+
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12">
-                        <p class="pageNumber">5  /  5</p>
+                        <p class="pageNumber">6  /  7</p>
                     </div>
                 </div>
                 <div class="down-icon">
-                    <a href="#home4"><i class="fa fa-angle-down"></i></a>
+                    <a href="#home7"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </div>
+        </li>
+        <li id="home7">
+            <div class="box-model-white">
+                <h3 class="about-me-title"><span class="logo-point">B</span>LOG</h3>
+                <div class="row">
+
+                    <!-- content -->
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-xs-12">
+                        <p class="pageNumber">7  /  7</p>
+                    </div>
                 </div>
             </div>
         </li>
     </ol>
 
     <div class="fixed-top-btn">
-        <i class="fa fa-angle-up"></i>
+        <a href="#"><i class="fa fa-angle-up"></i></a>
     </div>
     <footer>
         <br>
@@ -268,10 +408,14 @@
         <br>
         <br>
         <br>
+        <br>
+        <br>
     </footer>
     <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
-    <script src = "/js/projectPictureZoom.js"></script>
     <script src = "/js/menutoggle.js"></script>
+    <script src = "/js/modal-project.js"></script>
+    <script src = "/js/projectPictureZoom.js"></script>
+    <script src = "/js/smooth-scroll.js"></script>
     <script src = "/js/socialIconHover.js"></script>
 </body>
 </html>
