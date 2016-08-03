@@ -5,7 +5,8 @@ $(document).ready(function(){
 
     $nav.on('click', visible)
         .on('click', transformMenu);
-    $navlogo.on('click', visible);
+    $navlogo.on('click', visible)
+            .on('click', transformMenu);
 
     function transformMenu(){
         if($('h1').css('visibility') == 'visible'){
