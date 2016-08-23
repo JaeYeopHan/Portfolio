@@ -1,4 +1,11 @@
 .quote{
+    text-align: center;
+    margin: 1em 0em;
+}
+
+.quote .fa-quote-left{
+    font-size: 2.5em;
+    color: #FF305B;
 }
 
 
@@ -32,6 +39,7 @@
 
 .backgroundclass{
     margin: auto;
+    padding-right: 1em;
     height: 30em;
     width: 90%;
     background-image: url(/img/skills-bg.jpg);

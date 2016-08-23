@@ -1,5 +1,5 @@
 .skill-icon i{
-    padding: 0.3em 0.8em 0.3em 1em;
+    padding: 0.3em 0.8em 0.2em 1em;
     margin-bottom: 2em;
     margin-right: 0.3em;
     border-right: solid 1px #FF305B;
@@ -9,7 +9,8 @@
 
 }
 .skill-icon-description{
-    margin-bottom: 5em;
+    margin-bottom: 4em;
+    padding-right: 3em;
 }
 
 .skill-icon-description h4{
@@ -17,9 +18,8 @@
 }
 
 .skill-icon-description p{
-    margin-bottom: 4em;
     font-weight: 100;
-    line-height: 130%;
-    font-size: 1.2em;
+    line-height: 120%;
+    font-size: 1em;
     letter-spacing: 1px;
 }

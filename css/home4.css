@@ -1,6 +1,6 @@
 .image1, .image2, .image3, .image4{
     width: 100%;
-    height: 10em;
+    height: 15em;
     background-position: center;
     margin-top: 2em;
     margin-bottom: 4em;
@@ -9,7 +9,7 @@
     transition-timing-function: ease;
 }
 
-.transition{
+.modal-pop{
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
@@ -35,12 +35,14 @@
 .image-description{
     position: absolute;
     height: 50%;
-    top: 3em;
+    top: 5em;
     right: 1em;
     left: 1em;
-    padding: 0em 2em;
+    padding: 0 2em;
     text-align: center;
+    vertical-align: middle;
     cursor: pointer;
+    background-color: #000;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
     color:#FFF;
     letter-spacing: 1.5px;
@@ -63,12 +65,11 @@
     display: block;
     position: fixed;
     z-index: 9999;
-    padding-top: 100px;
+    padding-top: 5em;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
-    overflow: auto;
+    background-color: #000;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -76,12 +77,11 @@
     position: absolute;
     background-color: #FFF;
     margin: auto;
-    padding: 0;
     border: 1px solid #888;
     width: 60%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.5s
 }
 
 .modal-close{
@@ -105,9 +105,7 @@
 }
 
 .modal-project-description{
-    padding-top: 2em;
-    padding-left: 4em;
-    padding-bottom: 2em;
+    padding: 2em 4em;
 }
 
 .modal-project-description h4{
@@ -115,9 +113,45 @@
     padding-bottom: 1em;
 }
 
+.modal-project-description h5{
+    font-size: 2em;
+    padding: 0.5em;
+}
+
 .modal-project-description p{
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 100;
+}
+
+.modal-project-description img{
+    left: 20%;
+    height: 15em;
+    width: 60%;
+}
+
+.project-link{
+    text-align: center;
+}
+
+.project-link a{
+    font-size: 1.5em;
+    height: 100%;
+    transition: all, 0.3s;
+    transition-timing-function: ease;
+}
+
+.project-link a:hover{
+    color: #FF305B;
+}
+
+.project-link .fa{
+    padding-right: 0.5em;
+    font-size: 2em;
+}
+
+.project-link span{
+    padding-right: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 @keyframes animatetop {

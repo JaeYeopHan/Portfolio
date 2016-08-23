@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+.box-size{
+    height: 100% !important;
+    width: auto;
+}
+
 #liner2{
     border-right: solid #FFF 1px;
 }

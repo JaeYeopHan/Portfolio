@@ -6,10 +6,10 @@ $(document).ready(function(){
     $('.picture-animation4').hover(sizeTransform, sizeTransformReset);
 
     function sizeTransform(){
-        $(this).children('div').addClass('transition');
+        $(this).children('div').addClass('modal-pop');
     }
 
     function sizeTransformReset(){
-        $(this).children('div').removeClass('transition');
+        $(this).children('div').removeClass('modal-pop');
     }
 });
