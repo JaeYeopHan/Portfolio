@@ -1,3 +1,12 @@
+.title-description{
+    margin-left: 3em;
+    padding-left: 1em;
+    border-left: solid 5px #FF305B;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
 .image1, .image2, .image3, .image4{
     width: 100%;
     height: 15em;

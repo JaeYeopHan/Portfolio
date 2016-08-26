@@ -110,20 +110,22 @@ header h1{
     color: #FFF;
 }
 
-.fa-angle-up{
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
-    border: solid #FF305B 1px;
-    border-radius: 50%;
-    padding: 4px 6px;
+.top-btn-area{
     text-align: center;
+}
+
+.top-btn{
+    border: solid #FF305B 1px;
+    border-radius: 10%;
+    padding: 5px 16px;
     transition: all, 0.4s;
     transition-timing-function: ease;
     color: #FF305B;
 }
 
-.fa-angle-up:hover{
+.top-btn:hover{
     color: #FFF;
+    border-radius: 0%;
+    padding: 5px 60px;
     background-color: #FF305B;
 }

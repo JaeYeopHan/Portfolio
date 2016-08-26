@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     $('.down-icon').on('click', 'a', scrollcontroler);
 
-    $('.fixed-top-btn').on('click', 'a', function(event){
+    $('.top-btn-area').on('click', 'a', function(event){
         event.preventDefault();
         $('html, body').animate({
             scrollTop: 0
